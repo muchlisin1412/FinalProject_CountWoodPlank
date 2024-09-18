@@ -1,0 +1,13 @@
+train: C:/Users/Axioo Pongo/Downloads/wood.v1i.yolov8/train
+val: C:/Users/Axioo Pongo/Downloads/wood.v1i.yolov8/valid
+test: C:/Users/Axioo Pongo/Downloads/wood.v1i.yolov8/test
+
+nc: 3
+names: ['piece', 'pieces', 'plank']
+
+roboflow:
+  workspace: deteksi-api-asap-dan-kebakaran-kapal
+  project: wood-tmxac
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/deteksi-api-asap-dan-kebakaran-kapal/wood-tmxac/dataset/1
